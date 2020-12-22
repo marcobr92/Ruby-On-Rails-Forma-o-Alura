@@ -19,6 +19,12 @@ if correct
 else
 	puts "You didn't guessed the correct number " + name
 	puts "Please try again."
+	bigger = guessed.to_i > secret
+	if bigger
+		puts "Your number is bigger than the secret number"
+	else
+		puts "The secret number is bigger than the guessed number"
+	end
 end
 
 puts "\n\n\n\n\n"
