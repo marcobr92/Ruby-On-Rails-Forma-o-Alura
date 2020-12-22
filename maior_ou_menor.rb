@@ -12,4 +12,5 @@ puts "You guessed " + guessed
 puts "Is it the correct number?"
 puts "Response: "
 puts guessed.to_i == secret
+puts "\n\n\n\n\n"
 puts "Tks for playing " + name
