@@ -11,7 +11,9 @@ guessed = gets
 puts "You guessed " + guessed
 puts "Is it the correct number?"
 puts "..."
-if guessed.to_i == secret
+
+correct = guessed.to_i == secret
+if correct
 	puts "You guessed the correct number " + name
 	puts "Congrats!"
 else
